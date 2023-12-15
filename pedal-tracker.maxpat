@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 705.0, 467.0 ],
+		"rect" : [ 34.0, 100.0, 708.0, 470.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,50 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-152",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 958.0, 262.0, 58.0, 20.0 ],
+					"text" : "key: c"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-151",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 845.0, 262.0, 111.0, 22.0 ],
+					"text" : "copy-to-clipbard 99"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-150",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 682.0, 262.0, 58.0, 20.0 ],
+					"text" : "key: S-c"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-146",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 569.0, 262.0, 111.0, 22.0 ],
+					"text" : "copy-to-clipbard 67"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-75",
 					"maxclass" : "comment",
@@ -646,30 +690,6 @@
 					}
 ,
 					"text" : "p change-pedals"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-83",
-					"maxclass" : "number",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 347.0, 284.0, 50.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-81",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 4,
-					"outlettype" : [ "int", "int", "int", "int" ],
-					"patching_rect" : [ 347.0, 251.0, 50.5, 22.0 ],
-					"text" : "key"
 				}
 
 			}
@@ -2066,7 +2086,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 441.0, 109.0, 268.0, 20.0 ],
-									"presentation_linecount" : 2,
 									"text" : "shift+[1-9 ]= store 1-9; shift+0 = store 10"
 								}
 
@@ -3229,7 +3248,7 @@
 					"patching_rect" : [ 761.0, 292.0, 104.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 151.0, 314.960000000000036, 109.0, 22.0 ],
-					"text" : "(0 0 0 0 0 0 0)"
+					"text" : "(1 0 0 -1 0 0 0)"
 				}
 
 			}
@@ -3629,7 +3648,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 499.0, 314.960000000000036, 58.0, 22.0 ],
 					"readonly" : 1,
-					"text" : "---|----"
+					"text" : "v--|^---"
 				}
 
 			}
@@ -3687,8 +3706,8 @@
 						"ped-a" : [ 0 ],
 						"ped-b" : [ 0 ],
 						"ped-c" : [ 0 ],
-						"ped-d" : [ 0 ],
-						"ped-e" : [ 0 ],
+						"ped-d" : [ 1 ],
+						"ped-e" : [ -1 ],
 						"ped-f" : [ 0 ],
 						"ped-g" : [ 0 ],
 						"pedal-comment" : [ "" ]
@@ -4737,8 +4756,18 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-146", 0 ],
+					"midpoints" : [ 489.5, 255.0, 578.5, 255.0 ],
+					"order" : 0,
+					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-35", 0 ],
 					"midpoints" : [ 489.5, 255.0, 489.5, 255.0 ],
+					"order" : 1,
 					"source" : [ "obj-39", 0 ]
 				}
 
@@ -4805,8 +4834,18 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-151", 0 ],
+					"midpoints" : [ 770.5, 255.0, 854.5, 255.0 ],
+					"order" : 0,
+					"source" : [ "obj-43", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-45", 0 ],
 					"midpoints" : [ 770.5, 255.0, 770.5, 255.0 ],
+					"order" : 1,
 					"source" : [ "obj-43", 0 ]
 				}
 
@@ -5251,14 +5290,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-83", 0 ],
-					"midpoints" : [ 356.5, 276.0, 356.5, 276.0 ],
-					"source" : [ "obj-81", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-77", 0 ],
 					"midpoints" : [ 143.300000000000011, 45.0, 143.300000000000011, 45.0 ],
 					"source" : [ "obj-86", 0 ]
@@ -5415,6 +5446,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "copy-to-clipbard.maxpat",
+				"bootpath" : "~/code/harp-pedal-tracker",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "cycle-ped.maxpat",
 				"bootpath" : "~/code/harp-pedal-tracker",
 				"patcherrelativepath" : ".",
@@ -5441,6 +5479,10 @@
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "shell.mxo",
+				"type" : "iLaX"
 			}
  ],
 		"autosave" : 0

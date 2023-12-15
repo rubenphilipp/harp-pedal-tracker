@@ -14,6 +14,8 @@ opt-[a|s|d|f|g|h|j]     cycle through pedal positions
 a|s|d|f|g|h|j           increment pedal position
 S-[a|s|d|f|g|h|j]       decrement pedal position
 r                       reset all harp pedal positions
+S-c                     copy Dorico Salzedo mark to clipboard
+c                       copy salzedo-list to clipboard
 
 ------------
 
