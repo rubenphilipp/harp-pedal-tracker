@@ -1,0 +1,19 @@
+--------
+| HELP |
+--------
+
+------------
+-SHORTCUTS:-
+------------
+
+[1-0]                   recall preset [1-10]
+SPACE                   play (either chord or arpeggio)
+S-p                     toggle chord/arpeggio
+opt-[a|s|d|f|g|h|j]     cycle through pedal positions
+a|s|d|f|g|h|j           increment pedal position
+S-[a|s|d|f|g|h|j]       decrement pedal position
+
+------------
+
+S       = shift
+opt     = option
