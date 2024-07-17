@@ -8,8 +8,9 @@ Chaloupka's[^1] harp pedal tracker, aiming at facilityting writing for harp.
 Launch `_pedal-tracker.maxpat` (the main file) in order to work out your 
 "pedalings". 
 
-The pedal-list could be further used in *slippery chicken*, e.g. with 
-[`harp-salzedo-to-tl-set`](https://michael-edwards.org/sc/robodoc/tl-set_lsp.html#robo905). 
+The pedal-list could be further used in
+[slippery-chicken](http://github.com/mdedwards/slippery-chicken), e.g. with
+[`harp-salzedo-to-tl-set`](https://michael-edwards.org/sc/robodoc/tl-set_lsp.html#robo905).
 
 ## Dependencies
 
