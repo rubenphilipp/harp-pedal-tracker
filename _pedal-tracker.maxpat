@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 7,
+			"minor" : 6,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -193,8 +193,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 7,
+							"minor" : 6,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -716,8 +716,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 7,
+							"minor" : 6,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1566,8 +1566,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 7,
+							"minor" : 6,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2043,8 +2043,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 7,
+							"minor" : 6,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2664,8 +2664,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 7,
+							"minor" : 6,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3058,8 +3058,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 7,
+							"minor" : 6,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3260,7 +3260,7 @@
 					"patching_rect" : [ 761.0, 292.0, 104.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 151.0, 314.960000000000036, 109.0, 22.0 ],
-					"text" : "(-1 0 -1 0 1 0 -1)"
+					"text" : "(0 0 0 0 0 0 0)"
 				}
 
 			}
@@ -3275,8 +3275,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 7,
+							"minor" : 6,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3660,7 +3660,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 499.0, 314.960000000000036, 58.0, 22.0 ],
 					"readonly" : 1,
-					"text" : "^-^|-v-^"
+					"text" : "---|----"
 				}
 
 			}
@@ -3715,12 +3715,12 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 964.0, 25.0, 56.0, 22.0 ],
 					"restore" : 					{
-						"ped-a" : [ -1 ],
-						"ped-b" : [ -1 ],
+						"ped-a" : [ 0 ],
+						"ped-b" : [ 0 ],
 						"ped-c" : [ 0 ],
-						"ped-d" : [ -1 ],
+						"ped-d" : [ 0 ],
 						"ped-e" : [ 0 ],
-						"ped-f" : [ 1 ],
+						"ped-f" : [ 0 ],
 						"ped-g" : [ 0 ],
 						"pedal-comment" : [ "" ]
 					}
@@ -3746,7 +3746,6 @@
 			}
 , 			{
 				"box" : 				{
-					"autorestore" : "pedals1.json",
 					"id" : "obj-13",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -3791,7 +3790,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 734.0, 603.0, 75.0, 198.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 532.5, 105.480000000000018, 75.0, 198.0 ]
+					"presentation_rect" : [ 532.833333333333371, 105.480000000000018, 75.0, 198.0 ]
 				}
 
 			}
@@ -3806,7 +3805,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 657.0, 603.0, 75.0, 198.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 455.5, 105.480000000000018, 75.0, 198.0 ]
+					"presentation_rect" : [ 456.166666666666686, 105.480000000000018, 75.0, 198.0 ]
 				}
 
 			}
@@ -3821,7 +3820,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 580.0, 603.0, 75.0, 198.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 378.5, 105.480000000000018, 75.0, 198.0 ]
+					"presentation_rect" : [ 379.5, 105.480000000000018, 75.0, 198.0 ]
 				}
 
 			}
@@ -3836,7 +3835,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 505.0, 603.0, 75.0, 198.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 303.5, 105.480000000000018, 75.0, 198.0 ]
+					"presentation_rect" : [ 302.833333333333314, 105.480000000000018, 75.0, 198.0 ]
 				}
 
 			}
@@ -3851,7 +3850,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 428.0, 603.0, 75.0, 198.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 226.5, 105.480000000000018, 75.0, 198.0 ]
+					"presentation_rect" : [ 226.166666666666657, 105.480000000000018, 75.0, 198.0 ]
 				}
 
 			}
@@ -5498,13 +5497,6 @@
 				"name" : "pedal.maxpat",
 				"bootpath" : "~/code/harp-pedal-tracker",
 				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pedals1.json",
-				"bootpath" : "~/Music/topographie-1/harp",
-				"patcherrelativepath" : "../../Music/topographie-1/harp",
 				"type" : "JSON",
 				"implicit" : 1
 			}
