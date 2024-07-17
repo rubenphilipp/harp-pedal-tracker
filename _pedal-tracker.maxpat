@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-24",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 324.0, 387.0, 70.0, 22.0 ],
+					"text" : "loadmess 0"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-152",
 					"maxclass" : "comment",
@@ -182,7 +194,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -705,7 +717,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1555,7 +1567,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2032,7 +2044,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2653,7 +2665,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3047,7 +3059,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3248,7 +3260,7 @@
 					"patching_rect" : [ 761.0, 292.0, 104.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 151.0, 314.960000000000036, 109.0, 22.0 ],
-					"text" : "(1 0 0 -1 0 0 0)"
+					"text" : "(-1 0 -1 0 1 0 -1)"
 				}
 
 			}
@@ -3264,7 +3276,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3648,7 +3660,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 499.0, 314.960000000000036, 58.0, 22.0 ],
 					"readonly" : 1,
-					"text" : "v--|^---"
+					"text" : "^-^|-v-^"
 				}
 
 			}
@@ -3703,12 +3715,12 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 964.0, 25.0, 56.0, 22.0 ],
 					"restore" : 					{
-						"ped-a" : [ 0 ],
-						"ped-b" : [ 0 ],
+						"ped-a" : [ -1 ],
+						"ped-b" : [ -1 ],
 						"ped-c" : [ 0 ],
-						"ped-d" : [ 1 ],
-						"ped-e" : [ -1 ],
-						"ped-f" : [ 0 ],
+						"ped-d" : [ -1 ],
+						"ped-e" : [ 0 ],
+						"ped-f" : [ 1 ],
 						"ped-g" : [ 0 ],
 						"pedal-comment" : [ "" ]
 					}
@@ -3734,6 +3746,7 @@
 			}
 , 			{
 				"box" : 				{
+					"autorestore" : "pedals1.json",
 					"id" : "obj-13",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -4660,6 +4673,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-122", 0 ],
+					"midpoints" : [ 333.5, 411.0, 319.0, 411.0 ],
+					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"midpoints" : [ 973.5, 144.0, 973.5, 144.0 ],
 					"source" : [ "obj-25", 0 ]
@@ -5477,6 +5498,13 @@
 				"name" : "pedal.maxpat",
 				"bootpath" : "~/code/harp-pedal-tracker",
 				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pedals1.json",
+				"bootpath" : "~/Music/topographie-1/harp",
+				"patcherrelativepath" : "../../Music/topographie-1/harp",
 				"type" : "JSON",
 				"implicit" : 1
 			}

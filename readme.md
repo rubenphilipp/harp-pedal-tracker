@@ -9,7 +9,7 @@ ways of working with the Salzedo pedals in
 
 ## Usage
 
-Launch `pedal-tracker.maxpat` (the main file) in order to work out your 
+Launch `_pedal-tracker.maxpat` (the main file) in order to work out your 
 "pedalings". 
 
 The pedal-list could be further used in *slippery chicken*, e.g. with 
